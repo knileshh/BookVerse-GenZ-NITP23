@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Caveat:wght@500&family=Comfortaa:wght@300&family=IBM+Plex+Sans&family=Oswald:wght@200&family=Poppins:wght@300&display=swap');
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+
+}
+
+/* {
+    background-image: url("pixels.jpg");
+    background-size: 100%;
+} */
+
+body {
+    width: 100%;
+    /*what is the use of width here?*/
+    min-height: 100vh;
+    background: url('wolves.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 5px solid red; */
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.heading {
+    position: sticky;
+    top: 0px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    /* backdrop-filter: blur(15px); */
+    margin: 10px;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    
+
+}
+
+.nav {
+    /* border: 2px solid white; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    /* position: relative; */
+    background: transparent;
+}
+
+p {
+    color: rgb(57, 76, 89);
+}
+
+.nav p {
+    
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    min-height: 30vh;
+}
+
+.nav a {
+    width: 200px;
+    height: 40%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+
+    border: 2px solid rgb(235, 235, 235);
+    backdrop-filter: blur(15px);
+
+}
+
+.nav a:hover {
+    /* text-decoration: underline; */
+    border: 2px solid rgb(66, 89, 103);
+    color: rgba(48, 62, 71, 0.806);
+    box-shadow: 0 0 10px 4px rgba(131, 139, 141, 0.497);
+}

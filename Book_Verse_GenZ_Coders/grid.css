@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Caveat:wght@500&family=Comfortaa:wght@300&family=IBM+Plex+Sans&family=Oswald:wght@200&family=Poppins:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font-family: 'poppins', sans-serif;
+
+  /* display: flex; */
+
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url('snakePlant.jpg')no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form1 {
+  height: 800px;
+  width: 800px;
+
+  display: grid;
+  grid-template-rows: 350px 100px;
+  grid-template-columns: 350px 100px;
+  row-gap: 10px;
+  column-gap: 250px;
+
+}
+
+.fullname {
+
+}
+
+.gender {
+ 
+  
+}

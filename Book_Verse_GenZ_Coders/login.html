@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Login
+    </title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header class="nav">
+        <p class="log">Login</p>
+        <nav class="links">
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">New Student Register</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="form-center">
+
+        <form action="login.php" method="post">
+            <label for=firstName>
+                <h1>Login</h1>
+            </label>
+
+            <br>
+            <!-- <label for="name">Name:</label> -->
+            <input type="text" name="firstName" id="firstName" placeholder="Your name" required>
+
+            <br>
+            <!-- <label for="mobile">Enter your Mobile No.</label> -->
+            <input type="password" name="pass" id="pass" placeholder="Password : " required>
+
+            <br>
+            <input type="submit" value="Login">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
